@@ -16,3 +16,32 @@ A real-time facial emotion recognition system that detects 7 human emotions thro
 - **Frontend:** HTML, CSS, JavaScript
 
 ## Project Structure
+emosense-ai/
+
+├── backend/
+
+│   └── app.py
+
+├── frontend/
+
+│   └── index.html
+
+└── model/
+
+└── emotion_model.keras
+## How to Run
+1. Clone the repository
+git clone https://github.com/tejasvijn/emosense-ai.git
+
+cd emosense-ai
+2. Install dependencies
+pip install flask opencv-python tensorflow numpy
+3. Run the backend
+cd backend
+
+python app.py
+4. Open `frontend/index.html` in your browser (or visit the local server address shown in the terminal)
+
+## Author
+**Tejasvi J N**
+[GitHub](https://github.com/tejasvijn)
